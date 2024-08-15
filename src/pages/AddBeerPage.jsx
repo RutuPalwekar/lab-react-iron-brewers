@@ -47,7 +47,7 @@ function AddBeerPage() {
       .then( response => {
           console.log("Beer created:", response.data);
       })
-      .catch( error => console.log("Error creating a new project...", error));
+      .catch( error => console.log("Error creating a new project..", error));
   }
 
   // Structure and the content of the page showing the form for adding a new beer. You can leave this as it is.
